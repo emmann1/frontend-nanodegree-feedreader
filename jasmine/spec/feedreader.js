@@ -90,7 +90,6 @@ $(function() {
          it('should change visibility', function(done) {
             expect(menuPosition[0]).toBe(0);
             expect(menuPosition[1]).toBe(-192);
-            console.log(menuPosition);
             done();
         });
     });
